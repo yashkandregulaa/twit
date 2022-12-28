@@ -1,0 +1,313 @@
+*{
+    font-family:sans-serif;
+    margin:0%;
+    padding:0%;
+    background-color: black;
+}
+.main-page{
+    display:grid;
+    grid-template-columns: 15% 50% 30%;
+}
+p{
+    color:grey;
+}
+h2{
+    color:white;
+    font-weight: bolder;
+}
+.sidebar{
+    top:0;
+    bottom:0;
+    left:0;
+    display:flex;
+    flex-direction: column;
+    border-right: 1px solid rgb(61, 61, 61);
+    align-items: flex-end;
+    padding-right: 18%;
+    padding-top: 14%;
+}
+#feather{
+    width:fit-content;
+    height: fit-content;
+    padding: 8%;
+    border-radius: 60%;
+    background-color: rgb(29, 155, 240);
+    margin-bottom: 0%;
+    margin-left: 10%;
+}
+#birdie{
+    margin-bottom:22%;
+}
+.sidebar img{
+    margin-bottom: 15%;
+}
+.somepic{
+    width:30%;
+    height:30%;
+    margin-top: 83%;
+}
+.left-round-icon{
+    width:30px;
+    height:30px;
+    margin-bottom: 10%;
+}
+.left-round-img{
+    width:97%;
+    border-radius: 50%;
+}
+.middle{
+    display:flex;
+    flex-direction: column;
+    border-right: 1px solid rgb(61, 61, 61);
+    margin-top: 10.2%;
+}
+.fixed-header{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    left:15%;
+    right:35%;
+    top:0;
+    border-right: 1px solid rgb(61, 61, 61);
+    backdrop-filter: blur(100px);
+    z-index: 2000;
+}
+.human-name{
+    display: flex;
+    flex-direction: column;
+}
+.human-name > h3{
+    color: white;
+}
+.arrow-sym{
+    margin-right: 5%;
+    margin-left: 3%;
+}
+.right-more{
+    width:3%;
+    height:fit-content;
+    position: absolute;
+    bottom:-27%;
+    right:19%;
+    border:1px solid grey;
+    border-radius: 50%;
+    padding: 0.6% 1.1% 0.6% 1.1%;
+    align-content: center;
+    background: transparent;
+}
+.right-more img{
+    width:100%;
+}
+.banner{
+    position:relative;
+    margin-bottom: 14%;
+}
+.banpic{
+    width:100%;
+}
+.propic{
+    width:20%;
+    height:59%;
+    border-radius:60%;
+    position:absolute;
+    bottom:-30%;
+    left:4%;
+}
+.profile-info{
+    display:flex;
+    flex-direction:column;
+    margin-left: 3%;
+}
+.otherinfo{
+    display:flex;
+    flex-direction: column;
+    margin-top: 2%;
+    line-height: 200%;
+}
+.note{
+    font-size: small;
+}
+#interests{
+    color:white;
+    font-weight: 510;
+}
+.dateandplace{
+    display:flex;
+    flex-direction: row;
+}
+.dateandplace > p{
+    margin-right:2.3%
+}
+.minicons{
+    width:20px;
+    height:20px;
+    padding-right:0.7%;
+}
+.minicons img{
+    width:100%;
+}
+.numoffollow{
+    display:flex;
+    flex-direction: row;
+}
+.numoffollow > p{
+    margin-right: 3%;
+}
+.num{
+    color:white;
+    font-weight: 600;
+}
+.sections{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:4%;
+}
+.sections > button{
+    color:grey;
+    font-size: medium;
+    font-weight: bold;
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+    margin-left:9%;
+    
+}
+.gallery{
+    height:30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    row-gap: 1px;
+    column-gap: 1px;
+    margin-bottom: 10%;
+    margin-top: 23%;
+}
+.gallery img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+.suggestions{
+    padding: 5% 5% 5% 5%;
+    border-radius: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(22, 24, 28);
+}
+/* to apply gray bg color to frnd sugg box*/
+.suggestions > *{
+    background-color: rgb(22, 24, 28);
+}
+.suggestions > div > div{
+    background-color: rgb(22, 24, 28);
+}
+.suggestions > div > div > div > div > *{
+    background-color: rgb(22, 24, 28);
+}
+.picandname{
+    background-color: rgb(22, 24, 28);
+}
+.frnd-sugg {
+    background-color: rgb(22, 24, 28);
+}
+.suggestions > div > *{
+    background-color: rgb(22, 24, 28);
+}
+.nameofotheracc{
+    background-color: rgb(22, 24, 28);
+}
+/* to apply gray bg color to frnd sugg box*/
+.suggestions h2{
+    font-size: 134%;
+}
+.otheraccounts{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    margin-bottom:7%;
+}
+#spcl{
+    margin-top: 0%;
+    margin-bottom: 4%;
+}
+.frnd-sugg{
+    width:15%;
+}
+.frnd-sugg img{
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+    border:none;
+}
+.nameofotheracc{
+    width:50%;
+    margin-left:2%;
+}
+.acc-name{
+    color:white;
+    font-weight: 600;
+}
+.username{
+    font-size: 90%;
+}
+.prime{
+    position:absolute;
+    right:3%;
+    bottom:-27%;
+    background-color: white;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 30px;
+    border:none;
+    padding:1.4% 3.1% 1.4% 3.1%;
+}
+.picandname{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.follow-button{
+    width:34%;
+    height:30;
+    background-color:white;   
+    font-weight: 600;
+    border:none;
+    border-radius: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+a{
+    color:rgb(29, 155, 240);
+    text-decoration: none;
+}
+.fixed-header1{
+    position: fixed;
+    top:0;
+    left:65%;
+    right:0%;
+    padding: 1.2% 1.2% 1.2% 2%;
+}
+.wrapper > input{
+    width:90%;
+    font-size: medium;
+    background-color: rgb(31, 33, 39);
+    padding: 2% 2% 2% 15%;
+    border:none;
+    border-radius: 20px;
+}
+.wrapper{
+    position:relative;
+}
+.wrapper > img{
+    width:5%;
+    background: none;
+    position: absolute;
+    top:21%;
+    right:90%;
+}
